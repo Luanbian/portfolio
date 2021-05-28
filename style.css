@@ -1,0 +1,760 @@
+body {
+  background-image: url(img/cool-geometric-triangular-figure-in-a-neon-laser-light-great-for-backgrounds-and-wallpapers.jpg);
+  background-color: white;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#a {
+  color: #001C49;
+}
+
+#content {
+  position: relative;
+  background-color: #001C49;
+  width: 1150px;
+  height: 2100px;
+  display: block;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 3;
+  border-radius: 14px;
+}
+
+#logo {
+  cursor: pointer;
+  border-style: none;
+}
+
+#BtAn {
+  font-family: 'Poppins', sans-serif;
+  position: relative;
+  left: 10px;
+  bottom: 10px;
+  font-size: medium;
+  border-radius: 7px;
+  background-color: #0092A7;
+  cursor: pointer;
+  color: white;
+  box-shadow: 0 0.6px 1px;
+}
+
+#BtMt {
+  font-family: 'Poppins', sans-serif;
+  position: relative;
+  bottom: 10px;
+  left: 22px;
+  font-size: medium;
+  border-radius: 7px;
+  background-color: #0092A7;
+  box-shadow: 0 0.6px 1px;
+  cursor: pointer;
+  color: white;
+}
+
+#BtCe {
+  font-family: 'Poppins', sans-serif;
+  position: relative;
+  bottom: 10px;
+  left: 33px;
+  font-size: medium;
+  border-radius: 7px;
+  background-color: #0092A7;
+  box-shadow: 0 0.6px 1px;
+  cursor: pointer;
+  color: white;
+}
+
+#BtCon {
+  font-family: 'Poppins', sans-serif;
+  position: relative;
+  bottom: 10px;
+  left: 45px;
+  font-size: medium;
+  border-radius: 7px;
+  background-color: #0092A7;
+  box-shadow: 0 0.6px 1px;
+  cursor: pointer;
+  color: white;
+}
+
+.Perfil {
+  background-color: #001C49;
+  width: 260px;
+  height: 260px;
+  position: absolute;
+  left: 0px;
+  top: 200px;
+}
+.Trabalhos {
+  color: wheat;
+  background-color: none;
+  width: 450px;
+  height: 1300px;
+  position: absolute;
+  left: 660px;
+  top: 700px;
+}
+
+#Certificados {
+  background-color: #001C49;
+  width: 530px;
+  height: 300px;
+  position: relative;
+  left: 30px;
+  top: 0px;
+}
+
+#certificado2 {
+  background-color: #001C49;
+  width: 530px;
+  height: 300px;
+  position: relative;
+  left: 30px;
+  top: 0px;
+}
+
+.certzoom {
+  visibility: hidden;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 600px;
+  width: 800px;
+  margin-top: 550px;
+  margin-left: -430px;
+  text-align: center;
+  z-index: 3;
+}
+
+@keyframes fadeOut {
+  0% {
+    transform: translateY(50px);
+  }
+
+  20% {
+    transform: translateY(-20px);
+  }
+
+  40% {
+    transform: translateY(30px);
+  }
+
+  60% {
+    transform: translateY(-20px);
+  }
+
+  80% {
+    transform: translateY(10px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    transform: translateX(40px);
+  }
+
+  20% {
+    transform: translateX(-10px);
+  }
+
+  40% {
+    transform: translateX(20px);
+  }
+
+  60% {
+    transform: translateX(-20px);
+  }
+
+  80% {
+    transform: translateX(0px);
+  }
+
+  100% {
+    transform: translateX(0px);
+  }
+}
+#imghabilidades{
+  height: 50px;
+  width: 400px;
+  position: relative;
+  left: 15%;
+}
+.habilidades {
+  background-color: #001C49;
+  height: 0px;
+  position: absolute;
+  top: 9%;
+  left: 52%;
+}
+
+.textoperfil {
+  font-family: 'Poppins', sans-serif;
+  background-color: #001C49;
+  position: relative;
+  color: white;
+  font-size: 15px;
+  top: 50px;
+  left: 260px;
+  width: 330px;
+  height: 200px;
+}
+
+.BarraHab {
+  position: relative;
+  left: 57%;
+  top: -5%;
+}
+
+.certificadosbar {
+  position: relative;
+  left: 20px;
+  top: 270px;
+}
+
+#info {
+  position: relative;
+  left: -230px;
+  bottom: 770px;
+}
+
+#gmail {
+  font-family: 'Poppins', sans-serif;
+  position: relative;
+  left: 85px;
+  bottom: 790px;
+  color: white;
+  font-size: 26px;
+  width: 100px;
+  height: 10px;
+}
+
+#iconGmail {
+  position: relative;
+  left: 20px;
+  bottom: 840px;
+  width: 60px;
+  height: 60px;
+}
+
+#linkedin {
+  font-family: 'Poppins', sans-serif;
+  position: relative;
+  left: 100px;
+  bottom: 825px;
+  color: white;
+  font-size: 26px;
+  width: 300px;
+  height: 10px;
+}
+
+#iconLinkedin {
+  position: relative;
+  left: 20px;
+  bottom: 875px;
+  width: 60px;
+  height: 60px;
+}
+
+#github {
+  font-family: 'Poppins', sans-serif;
+  position: relative;
+  left: 100px;
+  bottom: 860px;
+  color: white;
+  font-size: 26px;
+  width: 300px;
+  height: 10px;
+}
+
+#icongithub {
+  position: relative;
+  left: 20px;
+  bottom: 980px;
+  width: 60px;
+  height: 60px;
+}
+
+#aotopo {
+  position: relative;
+  left: -65px;
+  bottom: 130px;
+}
+
+.scrollToTop {
+  height: 1px;
+  width: 1px;
+  margin: 1px;
+  padding: 1px;
+}
+
+#footer {
+  width: 1000px;
+  height: 30px;
+  background-color: none;
+  position: relative;
+  left: 10px;
+  bottom: -150px;
+  color: #0092A7;
+  font-size: 25px;
+  border-radius: 14px;
+}
+
+#restaurant {
+  position: relative;
+  left: 5px;
+  border-radius: 20px;
+  border-style: dashed;
+  align-items: center;
+}
+
+#restaurant:hover {
+  animation: pulse 10s infinite;
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
+}
+
+@keyframes pulse {
+  0% {
+    -webkit-filter: brightness(120%);
+  }
+
+  100% {
+    -webkit-filter: brightness(120%);
+  }
+}
+
+#media {
+  margin-bottom: 20px;
+  position: relative;
+  top: 45px;
+  left: 5px;
+  border-radius: 20px;
+  border-style: dashed;
+  align-items: center;
+}
+
+#media:hover {
+  animation: pulse 10s infinite;
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
+}
+
+#botEmails {
+  margin-bottom: 10px;
+  position: relative;
+  top: 10px;
+  left: 5px;
+  border-radius: 20px;
+  border-style: dashed;
+  align-items: center;
+}
+
+#botEmails:hover {
+  animation: pulse 10s infinite;
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
+}
+
+#saint {
+  margin-bottom: 10px;
+  margin-top: 15px;
+  position: relative;
+  top: 145px;
+  left: 5px;
+  border-radius: 20px;
+  border-style: dashed;
+  align-items: center;
+}
+
+#saint:hover {
+  animation: pulse 10s infinite;
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
+}
+
+#imgfreela {
+  margin-bottom: 10px;
+  margin-top: 15px;
+  position: relative;
+  top: 320px;
+  left: 5px;
+  border-radius: 20px;
+  border-style: dashed;
+  align-items: center;
+}
+
+#imgfreela:hover {
+  animation: pulse 10s infinite;
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
+}
+
+.title-restaurant{
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  font-size: 22px;
+  position: relative;
+}
+
+.title-media{
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  font-size: 22px;
+  position: relative;
+  top: 35px;
+  left: 70px;
+}
+
+.title-e-mail{
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  font-size: 22px;
+  position: relative;
+  top: 50px;
+  left: 35px;
+}
+
+.title-saint{
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  font-size: 22px;
+  position: relative;
+  top: 65px;
+  width: 480px;
+}
+
+.trab1 {
+  font-family: 'Poppins', sans-serif;
+  width: 420px;
+  font-size: 18px;
+  background: none;
+  color: whitesmoke;
+}
+
+.trab2 {
+  font-family: 'Poppins', sans-serif;
+  width: 420px;
+  font-size: 18px;
+  background: none;
+  color: whitesmoke;
+}
+
+.mediaquery {
+  position: relative;
+  top: -25px;
+}
+
+.trab3 {
+  font-family: 'Poppins', sans-serif;
+  width: 420px;
+  font-size: 18px;
+  background: none;
+  color: whitesmoke;
+}
+
+.botem {
+  margin-top: 1px;
+  position: relative;
+  top: 30px;
+}
+
+.trab4 {
+  font-family: 'Poppins', sans-serif;
+  width: 420px;
+  font-size: 18px;
+  background: none;
+  color: whitesmoke;
+  position: relative;
+  top: 165px;
+}
+
+.santo {
+  margin-top: 1px;
+  margin-bottom: 1px;
+  position: relative;
+  top: -100px;
+  width: 50px;
+  height: 80px;
+}
+
+[lj-type="stage"] {
+  width: 43%;
+  height: 28%;
+  margin: auto;
+  position: relative;
+  left: -320px;
+  top: 270px;
+  cursor: pointer;
+}
+
+#ponto1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 25px;
+  color: white;
+  position: relative;
+  top: 60px;
+  left: 70px;
+  background-color: #001C49;
+}
+
+#ponto2 {
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  font-size: 25px;
+  position: relative;
+  top: 60px;
+  left: 130px;
+  background-color: #001C49;
+}
+
+@media (max-width: 700px) {
+  #content {
+    height: 1900px;
+    width: 260px;
+  }
+
+  #logo {
+    width: 260px;
+    height: 60px;
+  }
+
+  #BtAn {
+    left: 8px;
+    bottom: 8px;
+    width: 60px;
+    height: 20px;
+    font-size: 9px;
+  }
+
+  #BtMt {
+    left: 8px;
+    bottom: 13px;
+    width: 60px;
+    height: 20px;
+    font-size: 7px;
+  }
+
+  #BtCe {
+    left: 8px;
+    bottom: 8px;
+    width: 60px;
+    height: 20px;
+    font-size: 9px;
+  }
+
+  #BtCon {
+    left: 8px;
+    bottom: 8px;
+    width: 60px;
+    height: 20px;
+    font-size: 9px;
+  }
+
+  .ftcompleta {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    top: -100px;
+  }
+
+  .textoperfil {
+    font-family:'Poppins', sans-serif;
+    width: 150px;
+    height: 50px;
+    font-size: 7px;
+    left: 100px;
+    top: -70px;
+  }
+
+  .Trabalhos {
+    border-style: groove;
+    width: 1px;
+    height: 1px;
+    left: 500px;
+    top: -50px;
+  }
+
+  #restaurant {
+    left: -490px;
+    bottom: -300px;
+    width: 220px;
+    height: 120px;
+  }
+
+  .trab1 {
+    position: relative;
+    left: -500px;
+    top: 280px;
+    font-size: 15px;
+  }
+
+  .trab2 {
+    position: relative;
+    left: -500px;
+    top: 280px;
+    font-size: 15px;
+  }
+
+  .trab3 {
+    position: relative;
+    left: -500px;
+    top: 280px;
+    font-size: 15px;
+  }
+
+  .trab4 {
+    width: 260px;
+    height: 50px;
+    position: relative;
+    left: -500px;
+    top: 365px;
+    font-size: 12px;
+  }
+
+  .mediaquery {
+    left: -494px;
+    top: 270px;
+  }
+
+  #media {
+    width: 225px;
+    height: 125px;
+  }
+
+  .botem {
+    left: -494px;
+    top: 300px;
+  }
+
+  #botEmails {
+    width: 225px;
+    height: 125px;
+  }
+
+  .santo {
+    left: -494px;
+    top: 150px;
+  }
+
+  #saint {
+    width: 225px;
+    height: 125px;
+  }
+
+  .freela {
+    left: -494px;
+    top: 60px;
+  }
+
+  #imgfreela {
+    top: 280px;
+    width: 225px;
+    height: 125px;
+  }
+
+  .habilidades {
+    top: 1120px;
+  }
+
+  #imghabilidades {
+    width: 250px;
+    height: 30px;
+  }
+
+  .BarraHab {
+    top: 930px;
+    width: 250px;
+  }
+
+  .certificadosbar {
+    top: 970px;
+  }
+
+  #imgcertificadosbar {
+    width: 250px;
+    height: 30px;
+  }
+
+  [lj-type="stage"] {
+    top: 990px;
+    left: -8px;
+    width: 150px;
+  }
+
+  #ponto1 {
+    top: 590px;
+    left: 8px;
+    font-size: 15px;
+  }
+
+  #ponto2 {
+    top: 590px;
+    left: 45px;
+    font-size: 15px;
+  }
+
+  #info {
+    top: 610px;
+    left: 0px;
+    width: 250px;
+    height: 30px;
+  }
+
+  #gmail {
+    top: 600px;
+    left: 45px;
+    font-size: 14px;
+  }
+
+  #iconGmail {
+    top: 565px;
+    left: 8px;
+    width: 30px;
+    height: 30px;
+  }
+
+  #linkedin {
+    top: 560px;
+    left: 45px;
+    font-size: 18px;
+  }
+
+  #iconLinkedin {
+    top: 525px;
+    left: 8px;
+    width: 30px;
+    height: 30px;
+  }
+
+  #github {
+    top: 520px;
+    left: 45px;
+    font-size: 18px;
+  }
+
+  #icongithub {
+    top: 485px;
+    left: 8px;
+    width: 30px;
+    height: 30px;
+  }
+
+  #aotopo {
+    top: 510px;
+    left: 0px;
+    width: 250px;
+  }
+
+  #footer {
+    top: 560px;
+    font-size: 13px;
+  }
+}
