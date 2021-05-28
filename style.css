@@ -96,7 +96,7 @@ body {
   height: 1300px;
   position: absolute;
   left: 660px;
-  top: 700px;
+  top: 650px;
 }
 
 #Certificados {
@@ -228,7 +228,7 @@ body {
 #gmail {
   font-family: 'Poppins', sans-serif;
   position: relative;
-  left: 85px;
+  left: 98px;
   bottom: 790px;
   color: white;
   font-size: 26px;
@@ -277,9 +277,9 @@ body {
 #icongithub {
   position: relative;
   left: 20px;
-  bottom: 980px;
-  width: 60px;
-  height: 60px;
+  bottom: 967px;
+  width: 67px;
+  height: 67px;
 }
 
 #aotopo {
