@@ -323,6 +323,12 @@ body {
   border-radius: 14px;
 }
 
+.projetos{
+  position: relative;
+  left: 640px; 
+  top: -40px;
+}
+
 #restaurant {
   position: relative;
   left: 5px;
@@ -396,22 +402,6 @@ body {
   animation-name: pulse;
 }
 
-#imgfreela {
-  margin-bottom: 10px;
-  margin-top: 15px;
-  position: relative;
-  top: 320px;
-  left: 5px;
-  border-radius: 20px;
-  border-style: dashed;
-  align-items: center;
-}
-
-#imgfreela:hover {
-  animation: pulse 10s infinite;
-  -webkit-animation-name: pulse;
-  animation-name: pulse;
-}
 
 .title-restaurant{
   font-family: 'Poppins', sans-serif;
@@ -531,4 +521,113 @@ body {
   top: 60px;
   left: 130px;
   background-color: #001C49;
+}
+
+@media screen and (max-width: 1024px){
+  #content {
+    width: 100%;
+  }
+
+  #BtAn{
+    top: -40px;
+    left: 60px;
+  }
+
+  #BtMt{
+    top: -40px;
+    left: 80px;
+  }
+
+  #BtCe{
+    top: 10px;
+    left: -200px;
+  }
+
+  #BtCon{
+    top: -20px;
+    left: 755px;
+  }
+
+  .textoperfil{
+    top: 20px;
+    width: 240px;
+  }
+
+  #text{
+    font-size: 12.9px;
+  }
+
+  .BarraHab{
+    width: 350px;
+    left: 630px;
+    top: -120px;
+  }
+
+  #imghabilidades{
+    top: 22px;
+  }
+
+  [lj-type="stage"]{
+    left: -260px;
+  }
+
+  #ponto1, #ponto2{
+    top: 5px;
+  }
+
+  .projetos{
+    position: relative;
+    left: 600px;
+    width: 400px;
+    top: -55px;
+  }
+
+  .Trabalhos{
+    top: 600px;
+    left: 600px;
+  }
+
+  #restaurant,#media,#botEmails,#saint{
+    width: 340px;
+  }
+
+  .detailsS,.detailsB,.detailsM,.details{
+    font-size: 13px;
+    width: 320px;
+  }
+
+  .title-restaurant,.title-media,.title-e-mail,.title-saint{
+    font-size: 18px;
+    width: 390px;
+  }
+
+  #info{
+    width: 400px;
+  }
+
+  #iconGmail,#iconLinkedin{
+    width: 43px;
+    left: 40px;
+  }
+
+  #icongithub{
+    width: 43px;
+    left: 40px;
+    top: -940px;
+  }
+
+  #gmail,#linkedin,#github{
+    font-size: 20px;
+  }
+
+  #imgcertificadosbar{
+    width: 400px;
+    position: relative;
+    left: 40px;
+  }
+
+  #aotopo{
+    width: 500px;
+    left: 10px;
+  }
 }
