@@ -42,6 +42,10 @@ body {
   box-shadow: 0 0.6px 1px;
 }
 
+#BtAn:hover{
+  background-color: #FF5C00;
+}
+
 #BtMt {
   font-family: 'Poppins', sans-serif;
   position: relative;
@@ -53,6 +57,10 @@ body {
   box-shadow: 0 0.6px 1px;
   cursor: pointer;
   color: white;
+}
+
+#BtMt:hover{
+  background-color: #FF5C00;
 }
 
 #BtCe {
@@ -68,6 +76,10 @@ body {
   color: white;
 }
 
+#BtCe:hover{
+  background-color: #FF5C00;
+}
+
 #BtCon {
   font-family: 'Poppins', sans-serif;
   position: relative;
@@ -79,6 +91,10 @@ body {
   box-shadow: 0 0.6px 1px;
   cursor: pointer;
   color: white;
+}
+
+#BtCon:hover{
+  background-color: #FF5C00;
 }
 
 .Perfil {
