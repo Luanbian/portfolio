@@ -757,6 +757,7 @@ body {
   .zoom{
     width: 600px;
     left: 40px;
+    top: 20px;
   }
 
   [lj-type="stage"]{
