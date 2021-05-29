@@ -760,7 +760,7 @@ body {
   }
 
 }
-@media screen and (max-width: 767px){
+@media (min-width: 412px) and (max-width: 767px){
   #content{
     width: 100%;
     height: 2424px;
@@ -882,7 +882,7 @@ body {
   }
 
   [lj-type="stage"]{
-    left: -15px;
+    left: 0px;
     top: 200px;
   }
 
