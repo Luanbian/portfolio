@@ -491,6 +491,10 @@ body {
   width: 50px;
   height: 80px;
 }
+.zoom{
+  width: 800px;
+  height: 600px;
+}
 
 [lj-type="stage"] {
   width: 43%;
@@ -564,6 +568,11 @@ body {
 
   #imghabilidades{
     top: 22px;
+  }
+
+  .zoom{
+    position: relative;
+    top: -280px;
   }
 
   [lj-type="stage"]{
@@ -745,6 +754,11 @@ body {
     top: -90px;
   }
 
+  .zoom{
+    width: 600px;
+    left: 40px;
+  }
+
   [lj-type="stage"]{
     left: -15px;
     top: 200px;
@@ -862,6 +876,13 @@ body {
     width: 300px;
     left: -6px;
     top: 120px;
+  }
+
+  .zoom{
+    width: 350px;
+    height: 250px;
+    left: 31px;
+    top: 200px;
   }
 
   [lj-type="stage"]{
