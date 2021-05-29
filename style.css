@@ -639,7 +639,128 @@ body {
     left: 10px;
   }
 }
-@media screen and (max-width: 768px){
+@media(min-width:768px) and (max-width:991px){
+  #content{
+    width: 100%;
+  }
+
+  #BtAn{
+    top: 30px;
+    left: -410px;
+  }
+
+  #BtMt{
+    top: -2px;
+    left: 275px;
+  }
+
+  #BtCe{
+    top: -1px;
+    left: 290px;
+  }
+
+  #BtCon{
+    top: -1px;
+    left: 310px;
+  }
+
+  .BarraHab{
+    width: 280px;
+    left: 440px;
+    top: 140px;
+  }
+
+  #imghabilidades{
+    top: 279px;
+    width: 340px;
+    left: 10px;
+  }
+
+  .Perfil{
+    left: 45px;
+  }
+
+  .textoperfil{
+    top: 20px;
+    left: 310px;
+    width: 400px;
+  }
+
+  #text{
+    font-size: 16px;
+  }
+
+  #info{
+    top: -770px;
+    width: 340px;
+    left: -200px;
+  }
+
+  #imgcertificadosbar{
+    width: 340px;
+    position: relative;
+    left: 1px;
+    top: -90px;
+  }
+
+  .zoom{
+    width: 600px;
+    left: 40px;
+    top: 20px;
+  }
+
+  [lj-type="stage"]{
+    left: -200px;
+    top: 200px;
+  }
+
+  #ponto1{
+    top: -160px;
+    left: 50px;
+    font-size: 18px;
+  }
+
+  #ponto2{
+    top: -160px;
+    left: 90px;
+    font-size: 18px;
+  }
+
+  .projetos{
+    position: relative;
+    left: 400px;
+    width: 350px;
+    top: 227px;
+  }
+
+  .Trabalhos{
+    top: 830px;
+    left: 350px;
+  }
+
+  .title-restaurant,.title-media,.title-e-mail,.title-saint{
+    font-size: 13px;
+    width: 310px;
+    left: 80px;
+  }
+
+  #restaurant,#media,#botEmails,#saint,#aotopo{
+    width: 300px;
+    left: 75px;
+  }
+
+  #aotopo{
+    width: 500px;
+    left: 10px;
+    top: 230px;
+  }
+
+  #footer{
+    top: 350px;
+  }
+
+}
+@media screen and (max-width: 767px){
   #content{
     width: 100%;
     height: 2424px;
