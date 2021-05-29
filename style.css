@@ -768,3 +768,134 @@ body {
     top: 600px;
   }
 }
+@media screen and (max-width: 360px){
+  #content, #logo, #footer{
+    width: 100%;
+  }
+
+  #BtAn{
+    top: 1px;
+    left: 10px;
+    
+  } 
+  
+  #BtMt{
+    top: 1px;
+    left: 20px;
+  } 
+
+  #BtCe{
+    top: 9px;
+    left: 60px;
+  } 
+
+  #BtCon{
+    top: 9px;
+    left: 70px;
+  }
+
+  .Perfil{
+    left: 1px;
+  }
+
+  .ftcompleta{
+    width: 60%;
+  }
+
+  .textoperfil{
+    top: 35px;
+    left: 170px;
+    width: 174px;
+  }
+
+  #text{
+    font-size: 10px;
+  }
+
+  .BarraHab{
+    width: 280px;
+    left: 20px;
+    top: 135px;
+  }
+
+  #imghabilidades{
+    top: 215px;
+    width: 300px;
+    left: -180px;
+  }
+
+  #info{
+    top: -650px;
+    width: 300px;
+    left: 5px;
+  }
+
+  #iconGmail{
+    top: -700px;
+  }
+
+  #iconLinkedin{
+    top: -730px;
+  }
+
+  #icongithub{
+    top: -750px;
+  }
+
+  #gmail{
+    top: -650px;
+  }
+
+  #linkedin{
+    top: -690px;
+  }
+
+  #github{
+    top: -705px;
+  }
+
+  #imgcertificadosbar{
+    width: 300px;
+    left: -6px;
+    top: 120px;
+  }
+
+  [lj-type="stage"]{
+    top: 400px;
+    width: 280px;
+  }
+
+  #ponto1{
+    top: -50px;
+    left: 45px;
+    font-size: 18px;
+  }
+
+  #ponto2{
+    top: -50px;
+    left: 63px;
+    font-size: 18px;
+  }
+
+  .projetos{
+    left: 7px;
+    width: 330px;
+    top: 800px;
+  }
+
+  .Trabalhos{
+    top: 1375px;
+    left: 0px;
+  }
+
+  .title-restaurant,.title-media,.title-e-mail,.title-saint{
+    font-size: 10px;
+    width: 310px;
+    left: 30px;
+  }
+
+  #restaurant,#media,#botEmails,#saint,#aotopo{
+    width: 300px;
+    left: 15px;
+  }
+}
