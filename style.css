@@ -1184,4 +1184,152 @@ body {
     width: 300px;
     left: 15px;
   }
+  @media screen and (max-width: 280px){
+    #content, #logo{
+      width: 100%;
+    }
+
+    #BtAn{
+      top: 1px;
+      left: 10px;
+      font-size: 10px;
+    } 
+    
+    #BtMt{
+      top: 1px;
+      font-size: 10px;
+      left: 20px;
+    } 
+  
+    #BtCe{
+      top: 30px;
+      font-size: 10px;
+      left: -10px;
+    } 
+  
+    #BtCon{
+      font-size: 10px;
+      top: 9px;
+      left: 70px;
+    }
+
+    .Perfil{
+      left: 1px;
+      top: 150px;
+    }
+  
+    .ftcompleta{
+      width: 50%;
+    }
+  
+    .textoperfil{
+      top: 30px;
+      left: 130px;
+      width: 130px;
+    }
+  
+    #text{
+      font-size: 7.1px;
+    }
+
+    .BarraHab{
+      width: 250px;
+      left: 2px;
+      top: 35px;
+    }
+  
+    #imghabilidades{
+      top: 105px;
+      width: 250px;
+      left: -130px;
+    }
+
+    #info{
+      top: -650px;
+      width: 250px;
+      left: 5px;
+    }
+    
+    #iconGmail, #iconLinkedin, #icongithub{
+      left: 10px;
+      width: 35px;
+      height: 35px;
+    }
+    
+    #gmail{
+      top: -668px;
+      left: 50px;
+      font-size: 12px;
+    }
+  
+    #linkedin{
+      top: -699px;
+      left: 55px;
+      font-size: 12px;
+    }
+  
+    #github{
+      top: -725px;
+      left: 55px;
+      font-size: 12px;
+    }
+
+    #imgcertificadosbar{
+      width: 240px;
+      top: -90px;
+    }
+
+    [lj-type="stage"]{
+      top: 190px;
+      left: -7px;
+      width: 250px;
+    }
+
+    .zoom{
+      width: 250px;
+    }
+
+    #ponto1{
+      top: -200px;
+      left: 25px;
+      font-size: 14px;
+    }
+  
+    #ponto2{
+      top: -200px;
+      left: 63px;
+      font-size: 14px;
+    }
+
+    .projetos{
+      left: 10px;
+      width: 250px;
+      top: 520px;
+    }
+  
+    .Trabalhos{
+      top: 1030px;
+      left: 0px;
+    }
+
+    #restaurant,#media,#botEmails,#saint,#aotopo{
+      width: 220px;
+      left: 20px;
+    }
+
+    .title-saint{
+      width: 220px;
+    }
+
+    #aotopo{
+      width: 100%;
+      left: -2px;
+      top: 400px;
+    }
+    #footer{
+      width: 100%;
+      font-size: 18px;
+      top: 580px;
+    }
+  }
 }
