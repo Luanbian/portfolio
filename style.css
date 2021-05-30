@@ -909,6 +909,11 @@ body {
   }
 }
 @media screen and (max-width: 411px){
+  body{
+    background-image: none;
+    background-color: #001C49;
+  }
+
   #content, #logo{
     width: 100%;
   }
@@ -955,53 +960,53 @@ body {
   .BarraHab{
     width: 280px;
     left: 20px;
-    top: 80px;
+    top: 60px;
   }
 
   #imghabilidades{
-    top: 175px;
+    top: 195px;
     width: 300px;
     left: -180px;
   }
 
   #info{
-    top: -720px;
+    top: -650px;
     width: 300px;
     left: 25px;
   }
 
   #iconGmail{
-    top: -770px;
+    top: -720px;
   }
 
   #iconLinkedin{
-    top: -800px;
+    top: -760px;
   }
 
   #icongithub{
-    top: -820px;
+    top: -790px;
   }
 
   #gmail{
-    top: -725px;
+    top: -675px;
   }
 
   #linkedin{
-    top: -750px;
+    top: -715px;
   }
 
   #github{
-    top: -775px;
+    top: -740px;
   }
 
   #imgcertificadosbar{
     width: 300px;
     left: 6px;
-    top: 60px;
+    top: 20px;
   }
 
   [lj-type="stage"]{
-    top: 340px;
+    top: 300px;
     width: 300px;
     left: -30px;
   }
@@ -1014,13 +1019,13 @@ body {
   }
 
   #ponto1{
-    top: -90px;
+    top: -50px;
     left: 55px;
     font-size: 18px;
   }
 
   #ponto2{
-    top: -90px;
+    top: -50px;
     left: 75px;
     font-size: 18px;
   }
@@ -1028,18 +1033,29 @@ body {
   .projetos{
     left: 20px;
     width: 330px;
-    top: 800px;
+    top: 700px;
   }
 
   .Trabalhos{
-    top: 1375px;
+    top: 1275px;
     left: 20px;
+  }
+
+  #restaurant,#media,#botEmails,#saint{
+    width: 280px;
+    left: 35px;
+  }
+
+  .title-restaurant,.title-media,.title-e-mail,.title-saint{
+    font-size: 13px;
+    width: 290px;
+    left: 55px;
   }
 
   #aotopo{
     width: 100%;
-    top: 750px;
-    left: -20px;
+    top: 520px;
+    left: -1px;
   }
 
   #footer{
@@ -1048,7 +1064,7 @@ body {
   }
 }
 @media screen and (max-width: 360px){
-  #content, #logo, #footer{
+  #content, #logo{
     width: 100%;
   }
 
@@ -1094,49 +1110,52 @@ body {
   .BarraHab{
     width: 280px;
     left: 20px;
-    top: 135px;
+    top: 95px;
   }
 
   #imghabilidades{
     top: 215px;
     width: 300px;
-    left: -180px;
+    left: -170px;
   }
 
   #info{
-    top: -650px;
+    top: -600px;
     width: 300px;
     left: 5px;
   }
 
   #iconGmail{
-    top: -700px;
+    top: -660px;
   }
 
   #iconLinkedin{
-    top: -730px;
+    top: -705px;
   }
 
   #icongithub{
-    top: -750px;
+    top: -740px;
   }
 
   #gmail{
-    top: -650px;
+    top: -615px;
+    font-size: 15px;
   }
 
   #linkedin{
-    top: -690px;
+    font-size: 15px;
+    top: -660px;
   }
 
-  #github{
-    top: -705px;
+    #github{
+    font-size: 15px;
+    top: -695px;
   }
 
   #imgcertificadosbar{
     width: 300px;
     left: -6px;
-    top: 120px;
+    top: 40px;
   }
 
   .zoom{
@@ -1147,7 +1166,8 @@ body {
   }
 
   [lj-type="stage"]{
-    top: 400px;
+    top: 320px;
+    left: -20px;
     width: 280px;
   }
 
@@ -1166,23 +1186,35 @@ body {
   .projetos{
     left: 7px;
     width: 330px;
-    top: 800px;
+    top: 690px;
   }
 
   .Trabalhos{
-    top: 1375px;
+    top: 1260px;
     left: 0px;
   }
 
   .title-restaurant,.title-media,.title-e-mail,.title-saint{
     font-size: 10px;
-    width: 310px;
-    left: 30px;
+    width: 220px;
+    left: 55px;
   }
 
-  #restaurant,#media,#botEmails,#saint,#aotopo{
-    width: 300px;
-    left: 15px;
+  #restaurant,#media,#botEmails,#saint{
+    width: 250px;
+    left: 35px;
+  }
+
+  #aotopo{
+    width: 100%;
+    left: -2px;
+    top: 480px;
+    border-radius: 20px;
+  }
+
+  #footer{
+    top: 490px;
+    visibility: hidden;
   }
   @media screen and (max-width: 280px){
     #content, #logo{
