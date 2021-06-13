@@ -8,3 +8,9 @@
  - [x] CSS
  - [x] Javascript
  - [x] React.js 
+ 
+ Demonstro também os certificados que me deixaram mais capacitado para exercer a função de desenvolvedor fullstack
+ - [x] Principals of computer science - Harvard University
+ - [x] HTML, CSS and Javascript for Web developers - Jonhs Hopkins University
+ - [ ] Javascript completo - Udemy 
+ - [ ] Formação Node.js - Udemy
