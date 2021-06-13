@@ -14,3 +14,5 @@
  - [x] HTML, CSS and Javascript for Web developers - Jonhs Hopkins University
  - [ ] Javascript completo - Udemy 
  - [ ] Formação Node.js - Udemy
+
+E princialmente de forma facil vc tem acesso aos meus projetos!
