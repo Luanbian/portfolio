@@ -7,7 +7,7 @@ body {
 }
 
 #a {
-  color: #001C49;
+  text-decoration: none;
 }
 
 #content {
@@ -28,7 +28,7 @@ body {
   border-style: none;
 }
 
-#BtAn {
+#BtAn, #BtMt, #BtCe, #BtCon{
   font-family: 'Poppins', sans-serif;
   position: relative;
   left: 10px;
@@ -41,58 +41,19 @@ body {
   box-shadow: 0 0.6px 1px;
 }
 
-#BtAn:hover{
-  background-color: #FF5C00;
-}
-
 #BtMt {
-  font-family: 'Poppins', sans-serif;
-  position: relative;
-  bottom: 10px;
   left: 22px;
-  font-size: medium;
-  border-radius: 7px;
-  background-color: #0092A7;
-  box-shadow: 0 0.6px 1px;
-  cursor: pointer;
-  color: white;
-}
-
-#BtMt:hover{
-  background-color: #FF5C00;
 }
 
 #BtCe {
-  font-family: 'Poppins', sans-serif;
-  position: relative;
-  bottom: 10px;
   left: 33px;
-  font-size: medium;
-  border-radius: 7px;
-  background-color: #0092A7;
-  box-shadow: 0 0.6px 1px;
-  cursor: pointer;
-  color: white;
-}
-
-#BtCe:hover{
-  background-color: #FF5C00;
 }
 
 #BtCon {
-  font-family: 'Poppins', sans-serif;
-  position: relative;
-  bottom: 10px;
   left: 45px;
-  font-size: medium;
-  border-radius: 7px;
-  background-color: #0092A7;
-  box-shadow: 0 0.6px 1px;
-  cursor: pointer;
-  color: white;
 }
 
-#BtCon:hover{
+#BtMt:hover, #BtCe:hover, #BtCon:hover, #BtAn:hover {
   background-color: #FF5C00;
 }
 
@@ -114,16 +75,7 @@ body {
   top: 650px;
 }
 
-#Certificados {
-  background-color: #001C49;
-  width: 530px;
-  height: 300px;
-  position: relative;
-  left: 30px;
-  top: 0px;
-}
-
-#certificado2 {
+#Certificados, #certificado2 {
   background-color: #001C49;
   width: 530px;
   height: 300px;
@@ -196,6 +148,16 @@ body {
     transform: translateX(0px);
   }
 }
+
+@keyframes pulse {
+  0% {
+    -webkit-filter: brightness(120%);
+  }
+
+  100% {
+    -webkit-filter: brightness(120%);
+  }
+}
 #imghabilidades{
   height: 50px;
   width: 400px;
@@ -240,7 +202,7 @@ body {
   bottom: 770px;
 }
 
-#gmail {
+#gmail, #linkedin, #github {
   font-family: 'Poppins', sans-serif;
   position: relative;
   left: 98px;
@@ -251,7 +213,17 @@ body {
   height: 10px;
 }
 
-#iconGmail {
+#linkedin, #github {
+  left: 100px;
+  bottom: 825px;  
+  width: 300px;
+}
+
+#github {
+  bottom: 860px;
+}
+
+#iconGmail, #iconLinkedin, #icongithub {
   position: relative;
   left: 20px;
   bottom: 840px;
@@ -259,39 +231,11 @@ body {
   height: 60px;
 }
 
-#linkedin {
-  font-family: 'Poppins', sans-serif;
-  position: relative;
-  left: 100px;
-  bottom: 825px;
-  color: white;
-  font-size: 26px;
-  width: 300px;
-  height: 10px;
-}
-
 #iconLinkedin {
-  position: relative;
-  left: 20px;
   bottom: 875px;
-  width: 60px;
-  height: 60px;
-}
-
-#github {
-  font-family: 'Poppins', sans-serif;
-  position: relative;
-  left: 100px;
-  bottom: 860px;
-  color: white;
-  font-size: 26px;
-  width: 300px;
-  height: 10px;
 }
 
 #icongithub {
-  position: relative;
-  left: 20px;
   bottom: 967px;
   width: 67px;
   height: 67px;
@@ -328,81 +272,37 @@ body {
   top: -40px;
 }
 
-#restaurant {
+#restaurant, #media, #botEmails, #saint {
   position: relative;
   left: 5px;
   border-radius: 20px;
   border-style: dashed;
   align-items: center;
-}
-
-#restaurant:hover {
-  animation: pulse 10s infinite;
-  -webkit-animation-name: pulse;
-  animation-name: pulse;
-}
-
-@keyframes pulse {
-  0% {
-    -webkit-filter: brightness(120%);
-  }
-
-  100% {
-    -webkit-filter: brightness(120%);
-  }
 }
 
 #media {
   margin-bottom: 20px;
-  position: relative;
   top: 45px;
-  left: 5px;
-  border-radius: 20px;
-  border-style: dashed;
-  align-items: center;
 }
 
-#media:hover {
-  animation: pulse 10s infinite;
-  -webkit-animation-name: pulse;
-  animation-name: pulse;
-}
-
-#botEmails {
+#botEmails, #saint {
   margin-bottom: 10px;
-  position: relative;
   top: 10px;
-  left: 5px;
-  border-radius: 20px;
-  border-style: dashed;
-  align-items: center;
-}
-
-#botEmails:hover {
-  animation: pulse 10s infinite;
-  -webkit-animation-name: pulse;
-  animation-name: pulse;
 }
 
 #saint {
-  margin-bottom: 10px;
   margin-top: 15px;
-  position: relative;
   top: 145px;
-  left: 5px;
-  border-radius: 20px;
-  border-style: dashed;
-  align-items: center;
 }
 
-#saint:hover {
+#restaurant:hover, #media:hover, #botEmails:hover, #saint:hover{
   animation: pulse 10s infinite;
   -webkit-animation-name: pulse;
   animation-name: pulse;
 }
 
 
-.title-restaurant{
+.title-restaurant, .title-media, .title-e-mail, .title-saint{
   font-family: 'Poppins', sans-serif;
   color: white;
   font-size: 22px;
@@ -410,33 +310,21 @@ body {
 }
 
 .title-media{
-  font-family: 'Poppins', sans-serif;
-  color: white;
-  font-size: 22px;
-  position: relative;
   top: 35px;
   left: 70px;
 }
 
 .title-e-mail{
-  font-family: 'Poppins', sans-serif;
-  color: white;
-  font-size: 22px;
-  position: relative;
   top: 50px;
   left: 35px;
 }
 
 .title-saint{
-  font-family: 'Poppins', sans-serif;
-  color: white;
-  font-size: 22px;
-  position: relative;
   top: 65px;
   width: 480px;
 }
 
-.trab1 {
+.trab1, .trab2, .trab3, .trab4{
   font-family: 'Poppins', sans-serif;
   width: 420px;
   font-size: 18px;
@@ -444,12 +332,13 @@ body {
   color: whitesmoke;
 }
 
-.trab2 {
-  font-family: 'Poppins', sans-serif;
-  width: 420px;
-  font-size: 18px;
-  background: none;
-  color: whitesmoke;
+.trab3, .trab4{
+  position: relative;
+  top: 13px;
+}
+
+.trab4 {
+  top: 165px;
 }
 
 .mediaquery {
@@ -457,30 +346,10 @@ body {
   top: -25px;
 }
 
-.trab3 {
-  position: relative;
-  top: 13px;
-  font-family: 'Poppins', sans-serif;
-  width: 420px;
-  font-size: 18px;
-  background: none;
-  color: whitesmoke;
-}
-
 .botem {
   margin-top: 1px;
   position: relative;
   top: 30px;
-}
-
-.trab4 {
-  font-family: 'Poppins', sans-serif;
-  width: 420px;
-  font-size: 18px;
-  background: none;
-  color: whitesmoke;
-  position: relative;
-  top: 165px;
 }
 
 .santo {
@@ -506,7 +375,7 @@ body {
   cursor: pointer;
 }
 
-#ponto1 {
+#ponto1, #ponto2{
   font-family: 'Poppins', sans-serif;
   font-size: 25px;
   color: white;
@@ -517,13 +386,7 @@ body {
 }
 
 #ponto2 {
-  font-family: 'Poppins', sans-serif;
-  color: white;
-  font-size: 25px;
-  position: relative;
-  top: 60px;
   left: 130px;
-  background-color: #001C49;
 }
 
 @media screen and (max-width: 1024px){
